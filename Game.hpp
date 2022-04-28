@@ -6,15 +6,14 @@
 #include <iostream>
 #include <vector>
 #include <stdexcept>
-//#pragma once 
+#pragma once
 using namespace std;
 
 namespace coup
 {
     class Game
     {
-    private:
-        
+    
     public:
         vector<string> ListOfPlayers;
         unsigned int i;
@@ -23,7 +22,6 @@ namespace coup
         string turn();
         string winner();
         vector<string> players();
-        
     };
-    
+
 }

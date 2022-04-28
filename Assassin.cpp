@@ -1,16 +1,16 @@
 #include "Assassin.hpp"
 using namespace std;
 
-
-namespace coup{
-    Assassin::Assassin(Game &game, string name):Player(game,name){
-
+namespace coup
+{
+    Assassin::Assassin(Game &game, string name) : Player(game, name)
+    {
     }
-    Assassin::~Assassin(){
-
+    Assassin::~Assassin()
+    {
     }
-    int Assassin::coup3(){
+    // void Assassion::block(Player p){
 
-    }
+    // }
 
 }

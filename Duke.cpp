@@ -3,17 +3,17 @@ using namespace std;
 namespace coup
 {
 
-    Duke::Duke(Game &game, string name):Player(game,name){
-
+    Duke::Duke(Game &game, string name) : Player(game, name)
+    {
     }
-    Duke::~Duke(){
-
+    Duke::~Duke()
+    {
     }
-    void Duke::take_tax_3(){
-
+    void Duke::tax()
+    {
     }
-    void Duke::block_foreign_aid(Player plyer){
-
+    void Duke::block(Player plyer)
+    {
     }
 
 }

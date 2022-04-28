@@ -10,15 +10,21 @@
 #include "Game.hpp"
 #include <iostream>
 #include <vector>
+#pragma once
 #include <stdexcept>
-namespace coup{
+using namespace std;
 
-    class Player{
-        private:
-        std::string name;
+
+namespace coup
+{
+
+    class Player
+    {
+    private:
+        string name;
         int numcoins;
-        
-        public:
+
+    public:
         Game game;
         Player(Game &game, string name);
         ~Player();
@@ -27,7 +33,5 @@ namespace coup{
         void coup(Player a);
         void role();
         int coins();
-        
-
     };
 }

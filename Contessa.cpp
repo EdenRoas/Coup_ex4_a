@@ -9,7 +9,7 @@ namespace coup
     Contessa::~Contessa(){
 
     }
-    void Contessa::block_asses(Player p){
-
+    void Contessa::block(Player &p){
+        
     }
 }

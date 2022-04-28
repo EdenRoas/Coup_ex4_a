@@ -3,26 +3,24 @@
 namespace coup
 {
     Game::Game()
-    { // defult
-    }
-    string Game::turn()
-    {
-        return this->ListOfPlayers[i];
-    }
-    string Game::winner()
-    {
-        return this->ListOfPlayers[i];
-    }
-    vector<string> Game::players()
-    {
-        for (unsigned int i = 0; i < this->ListOfPlayers.size(); i++)
-        {
-            cout << ListOfPlayers[i] << endl;
-        }
-        return ListOfPlayers;
+    { // defult constructor
     }
     Game::~Game()
     {
     }
+    string Game::turn()
+    {
+        return "this->ListOfPlayers[i]";
+    }
+    string Game::winner()
+    {
+        return "ListOfPlayers[i]";
+    }
+    vector<string> Game::players()
+    {
 
-} // namespace coup
+        vector<string> ss= {"1"};
+        return ss;
+    }
+    
+} 

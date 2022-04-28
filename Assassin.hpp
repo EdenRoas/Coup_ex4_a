@@ -1,14 +1,14 @@
 #include "Player.hpp"
 using namespace std;
-namespace coup{
+namespace coup
+{
     class Assassin : public Player
     {
     private:
-
     public:
         Assassin(Game &game, string name);
         ~Assassin();
-        int coup3();
+        //void block(Player p);
     };
 
 }
